@@ -5,6 +5,9 @@ import com.example.E_Commerce.repo.IOrderRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
+import java.util.List;
+
 @Service
 public class OrderService {
     @Autowired
@@ -13,5 +16,9 @@ public class OrderService {
     public String placeOrder(ProductOrders newProductOrders){
         iOrderRepo.save(newProductOrders);
         return "Order Placed";
+    }
+
+    public List<ProductOrders> getOrderById(Integer id){
+        return iOrderRepo.findAllById(Collections.singleton(id));
     }
 }
