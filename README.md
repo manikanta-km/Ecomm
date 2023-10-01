@@ -91,8 +91,8 @@ POST Method :  http://localhost:8080/swagger-ui/index.html#/products
 
 <!-- Contact -->
 ## Contact
-For questions or feedback, please contact : Dharmendra Singh Shekhawat  
-- Mail Id : dharmendrashekhawat1403@gmail.com
+For questions or feedback, please contact : Manikanta KM
+- Mail Id : manikantakm.ygr@gmail.com
 
 <h1 align="center">Thank You...<h1>
 <h3 align = "center"> ***********************************************************<h3>
